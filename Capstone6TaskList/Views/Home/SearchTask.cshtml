@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Search Task";
+}
+<h2>Search Task</h2>
+<h2>Type Your User ID # Below to Search for Your Tasks</h2>
+
+<form action="/Home/SearchResult">
+    <div class="form-group">
+        <label for="number">User ID #</label>
+        <input type="number" class="form-control" id="email">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
